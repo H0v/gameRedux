@@ -5,6 +5,7 @@ body,
 }
 
 .App {
+  background: orange;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -13,7 +14,7 @@ body,
 }
 
 .btn-selected {
-  margin-bottom: 200px;
+  margin-bottom: 40px;
 }
 
 .you-won {
@@ -21,6 +22,9 @@ body,
 }
 
 .game-container {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: tomato;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -38,11 +42,33 @@ body,
 .btn {
   height: 100px;
   width: 100px;
-  border: 1px solid;
+  border: 2px white solid;
+  border-radius: 20px;
   cursor: pointer;
+  background-color: white;
+  margin-bottom: 5px;
 }
 
 .steps {
   font-size: 20px;
   margin-bottom: 50px;
+  color: white;
+  font-weight: 800;
+  padding: 10px;
+  background-color: tomato;
+  border-radius: 20px;
+}
+
+.again {
+  cursor: pointer;
+  color: white;
+  background-color: tomato;
+  font-weight: 800;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.you-won {
+  color: white;
 }
