@@ -56,6 +56,7 @@ function BtnContainer({
 
       if (status) {
         setFinished();
+        setPrevSelected("");
       }
     }
   }, [selectedColor, colors]);

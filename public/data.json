@@ -1,10 +1,10 @@
 {
   "maxCount": 4,
   "colors": [
-    ["blue", "blue", "blue", "blue"],
-    ["orange", "orange", "orange", "orange"],
-    ["purple", "purple", "purple", "purple"],
-    ["yellow", "yellow", "yellow"],
-    ["yellow"]
+    ["#FFCC30", "#FFCC30", "#FFCC30", "#FFCC30"],
+    ["#2093FC", "#2093FC", "#2093FC", "#2093FC"],
+    ["#FF6A9C", "#FF6A9C", "#FF6A9C", "#FF6A9C"],
+    ["#2A4054", "#2A4054", "#2A4054"],
+    ["#2A4054"]
   ]
 }

@@ -1,13 +1,16 @@
 import React from "react";
 
-export default function WonContainer({ steps, handlePlayAgain }) {
+export default function WonContainer({ steps, setSteps, setFinished }) {
   return (
     <>
       <h1 className="you-won">You Won ! </h1>
       <h2 className="you-won">TOTAL STEPS: {steps}</h2>
       <button
         className="again"
-        onClick={() => handlePlayAgain({ finished: false, steps: 0 })}
+        onClick={() => {
+          setSteps(0);
+          setFinished(false);
+        }}
       >
         Play Again
       </button>

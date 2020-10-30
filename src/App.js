@@ -5,6 +5,7 @@ import { connect } from "react-redux";
 import { setFinished, setSteps, setRestart } from "./redux/actions";
 
 function App({ finished, setFinished, steps, setSteps, setRestart }) {
+  
   const handleSetFinished = () => {
     setFinished(true);
   };
@@ -16,7 +17,11 @@ function App({ finished, setFinished, steps, setSteps, setRestart }) {
   return (
     <div className="App">
       {finished ? (
-        <WonContainer steps={steps} handlePlayAgain={setRestart} />
+        <WonContainer
+          steps={steps}
+          setSteps={setSteps}
+          setFinished={setFinished}
+        />
       ) : (
         <BtnContainer
           steps={steps}
