@@ -5,7 +5,6 @@ import { connect } from "react-redux";
 import { setFinished, setSteps, setRestart } from "./redux/actions";
 
 function App({ finished, setFinished, steps, setSteps, setRestart }) {
-  
   const handleSetFinished = () => {
     setFinished(true);
   };
